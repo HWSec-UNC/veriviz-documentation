@@ -1,0 +1,11 @@
+{
+    "name": "Veriviz-Documentation",
+    "image": "mcr.microsoft.com/devcontainers/python:latest",
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": ["ms-python.python"]
+      }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
