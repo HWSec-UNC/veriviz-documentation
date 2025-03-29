@@ -1,6 +1,6 @@
 # veriviz-documentation
 This is the documentation for veriviz using [MkDocs](https://www.mkdocs.org/)
-View the documentation website [HERE](https://hwsec-unc.github.io/veriviz-documentation/Getting%20Started/devcontainers/)
+View the documentation website: [https://hwsec-unc.github.io/veriviz-documentation/Getting%20Started/devcontainers/](https://hwsec-unc.github.io/veriviz-documentation/Getting%20Started/devcontainers/)
 
 # Contributing to the documentation
 
