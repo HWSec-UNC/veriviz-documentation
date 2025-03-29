@@ -24,6 +24,21 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
+nav:
+  - 🏠 Home: index.md
+  - 🧠 About:
+      - Overview: A_about.md
+      - Repository Structure: A_repo_structure.md
+  - 🛠️ Development:
+      - Using Devcontainers: devcontainers.md
+      - Using Verviz: A_using_verviz.md
+  - 🚀 Deployment:
+      - How to Deploy: B_how_to_deploy.md
+  - 📚 Reference:
+      - Sylvia Overview: sylvia.md
+      - Seif Overview: seif.md
+  - 👥 Contributing: contributing.md
+  - 📄 License: license.md
 
 markdown_extensions:
   - toc:
