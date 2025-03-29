@@ -35,11 +35,12 @@ theme:
 nav:
   - Home: index.md
   - Repository Structure: repo_structure.md
-  - Dev Containers: devcontainers.md
+  -Development:
+     - Dev Containers: development/devcontainers.md
+     - Running Locally: development/running_locally.md
   - Deployment:
      - All About Deployment: Deployment/deployment_intro.md
      - How to Deploy: Deployment/how_to_deploy.md
-
   - Reference:
       - Sylvia Overview: reference/sylvia.md
       - Seif Overview: reference/seif.md

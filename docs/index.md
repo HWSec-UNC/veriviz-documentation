@@ -3,7 +3,7 @@
 Welcome to **Veriviz**, a platform designed to **visualize hardware security research**. 
 Check out the live site [here](https://veriviz-dept-hwsecurity.apps.cloudapps.unc.edu/).
 
-This website serves as a resource to **document Veriviz** for both end users and developers:
+This website serves as a resource to document Veriviz:
 - If you want to **use Veriviz** or see demos, check out **Using Verviz** in the docs.
 - If you want to **develop or contribute**, see **Devcontainers** and **Contributing**.
 
