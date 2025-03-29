@@ -1,3 +1,0 @@
-# Veriviz Structure
-
-

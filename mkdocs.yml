@@ -1,12 +1,20 @@
 site_name: Veriviz Documentation
+
 theme:
+  name: material
   features:
     - content.code.copy
     - content.code.select
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.prefetch
+    
 
-  name: material
   palette:
-    # Palette toggle for light mode
+    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: deep orange
@@ -15,7 +23,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
+    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: deep orange
@@ -25,26 +33,22 @@ theme:
         name: Switch to light mode
 
 nav:
-  - 🏠 Home: index.md
-  - 🧠 About:
-      - Overview: A_about.md
-      - Repository Structure: A_repo_structure.md
-  - 🛠️ Development:
-      - Using Devcontainers: devcontainers.md
-      - Using Verviz: A_using_verviz.md
-  - 🚀 Deployment:
-      - How to Deploy: B_how_to_deploy.md
-  - 📚 Reference:
-      - Sylvia Overview: sylvia.md
-      - Seif Overview: seif.md
-  - 👥 Contributing: contributing.md
-  - 📄 License: license.md
+  - Home: index.md
+  - Repository Structure: repo_structure.md
+  - Dev Containers: devcontainers.md
+  - Deployment:
+     - All About Deployment: Deployment/deployment_intro.md
+     - How to Deploy: Deployment/how_to_deploy.md
+
+  - Reference:
+      - Sylvia Overview: reference/sylvia.md
+      - Seif Overview: reference/seif.md
+  - Contributing: contributing.md
 
 markdown_extensions:
   - toc:
       permalink: true
       title: Table of Contents
-
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -54,4 +58,3 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
