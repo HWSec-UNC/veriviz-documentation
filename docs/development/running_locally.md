@@ -19,4 +19,5 @@
 
 # Running Sylvia
 
-1. 
+1. Clone or Fork the Sylvia repository and open the dev container
+2. 

@@ -7,34 +7,10 @@
 1. **Fork and Clone**: Fork the Veriviz repository and/or clone it locally.
 2. **Devcontainer Setup**: For a consistent development environment, check out [using devcontainers](devcontainers.md).
 3. **Create a Branch**: Work on your feature or bug fix in a new branch, e.g., `git checkout -b feature/amazing-feature`.
-4. **Test and Verify**: Ensure everything runs locally before opening a PR.  
+4. **Test and Verify**: Ensure everything runs locally before opening a PR. See [here](development/running_locally.md) for more information on running locally.  
    - If you’d like to deploy changes or see how deployment works, see [How to Deploy](how_to_deploy.md).
 !!! note "Cloning Sylvia and/or SEIF"
     While not neseary, it is recommended to run things locally to test the full pipeline and your new code works. To tests the entirerty of the pipeline, it is recommended to clone Sylvia and/or SEIF to run these locally as well. Check out below for how to run these locally.
-
-### Running on your local machine
-
-#### Running Veriviz
-
-1. After opening the devcontainer, open a new terminal and run `cd frontend`
-2. Run `npm install` to verify everything is installed
-3. Run `npm run dev`. Now the frontend is up and running on `http://localhost:5173/`.
-!!! note "If step 3 is not working"
-    If it is not running on localhost:5173 check your CLI for the correct port. Then navigate to `.devcontainer/devcontainer.json` and change this line ` "forwardPorts": [5173, 8000]` to  `"forwardPorts": [VITE_PORT_HERE, 8000]` where the `VITE_PORT_HERE` is the port where the app tried to run. Then navigate to `/frontend/vite.config.js` and change the line `port: 5173` to again, `port: VITE_PORT_HERE`. Rebuild the container through `ctrl + shft + p`(`cmnd + shft + p`for mac), and then typing Rebuild in container` and selecting that. **Do NOT commit these changes to the remote repository** but these changes sould fix your project locally.
-4. Now we want to run the backend. Open a new terminal(diffrent than the one you used for the previous steps) `cd ../backend` in your terminal
-5. Run `npm install` to verify everything is installed
-6. Run `node server.js`. Now the backend is up and running on `https://localhost:8000/`. Note there is no display page for the root so visiting this on your browser, check the console for verification.
-!!! note "If step 6 is not working"
-    If it is not running on localhost:8000 check your CLI for the correct port. Then navigate to `.devcontainer/devcontainer.json` and change this line ` "forwardPorts": [5173, 8000]` to  `"forwardPorts": [5173E, NODE_PORT_HERE]` where the `NODE_PORT_HERE` is the port where the app tried to run. Rebuild the container through `ctrl + shft + p`(`cmnd + shft + p`for mac), and then typing Rebuild in container` and selecting that. **Do NOT commit these changes to the remote repository** but these changes sould fix your project locally.
-
-!!! note "Security Vulenerabilities"
-    When running `npm install`, if you see any messages in the CLI stating security vulnerabilities,
-    run `npm audit fix`.
-
-#### Running Sylvia
-
-1. 
-
 
 ## MkDocs and Contributing to Verviz Docs
 
