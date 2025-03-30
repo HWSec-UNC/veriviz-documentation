@@ -1,5 +1,7 @@
 # Sylvia
 
+---
+
 **Sylvia** is a **symbolic execution engine** built to handle Verilog RTL directly.
 It uses a strategy called **piecewise composition** to reduce the path-explosion 
 problem commonly seen in symbolic execution.
@@ -11,6 +13,7 @@ In **Veriviz**, Sylvia receives requests from SEIF, performs the necessary symbo
 analysis, and returns the results to the Veriviz backend, which then forwards them
 to the front end for visualization.
 
+---
 
 ## Citation
 

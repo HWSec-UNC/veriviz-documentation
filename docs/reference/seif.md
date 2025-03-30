@@ -1,5 +1,7 @@
 # SEIF
 
+---
+
 **SEIF** (Symbolic Execution for Information Flow) is a tool that focuses on verifying
 and exploring how information flows through hardware designs:
 
@@ -11,6 +13,8 @@ Read the paper [here](https://dl.acm.org/doi/10.1145/3623652.3623666)
 
 In **Veriviz**, SEIF is called from the backend to run advanced security checks.
 You can view or visualize the results via the Veriviz front end.
+
+---
 
 ## Citation
 

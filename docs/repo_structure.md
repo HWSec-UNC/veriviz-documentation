@@ -18,7 +18,7 @@ Below is a high-level breakdown of the Veriviz repository:
   - Utlizes ExpressJS for RestFUL API endpoints to delegate tasks to SEIF and Sylvia APIs respectfully.
 
 ### **`.github/workflows/`** 
-  - Houses CI/CD config (like `cicd.yml`) for automatic deployment to OKD. See [All About Deployment](../Deployment/deployment_intro.md) for more information.
+  - Houses CI/CD config (like `cicd.yml`) for automatic deployment to OKD. See [All About Deployment](Deployment/deployment_intro.md) for more information.
 
 
 ### How It Works

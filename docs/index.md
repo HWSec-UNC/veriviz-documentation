@@ -4,12 +4,15 @@ Welcome to **Veriviz**, a platform designed to **visualize hardware security res
 Check out the live site [here](https://veriviz-dept-hwsecurity.apps.cloudapps.unc.edu/).
 
 This website serves as a resource to document Veriviz:
-- If you want to **use Veriviz** or see demos, check out **Using Verviz** in the docs.
-- If you want to **develop or contribute**, see **Devcontainers** and **Contributing**.
+
+- If you want to **use Veriviz** or see demos, check out [the website](https://veriviz-dept-hwsecurity.apps.cloudapps.unc.edu/) or contact us!
+- If you want to **develop or contribute**, see **Development**, **Deployment** and **Contributing**.
 
 Enjoy exploring, and let us know if you have feedback!
 
-# About Verviz
+---
+
+## About Verviz
 
 **Verviz** is a research and visualization platform for hardware security. 
 Its main objective is to make **complex security analyses** more accessible 
@@ -26,4 +29,4 @@ this project is organized and how the frontend, backend, SEIF, and Sylvia pieces
 
 !!! Note "Where to go next?"
     - To learn how to contribute, click on the [contribute tab](contributing.md)
-    - To learn more about SEIF and Sylvia, click on the [refrences tab](refrence/sylvia)
+    - To learn more about SEIF and Sylvia, click on the [refrences tab](reference/sylvia.md)

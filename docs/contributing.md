@@ -1,16 +1,20 @@
 # Contributing
 
+---
+
 ## Contributing to the Verviz Website
 
 ### Getting Started
 
 1. **Fork and Clone**: Fork the Veriviz repository and/or clone it locally.
-2. **Devcontainer Setup**: For a consistent development environment, check out [using devcontainers](devcontainers.md).
+2. **Devcontainer Setup**: For a consistent development environment, check out [using devcontainers](development/devcontainers.md).
 3. **Create a Branch**: Work on your feature or bug fix in a new branch, e.g., `git checkout -b feature/amazing-feature`.
 4. **Test and Verify**: Ensure everything runs locally before opening a PR. See [here](development/running_locally.md) for more information on running locally.  
-   - If you’d like to deploy changes or see how deployment works, see [How to Deploy](how_to_deploy.md).
+   - If you’d like to deploy changes or see how deployment works, see [How to Deploy](Deployment/how_to_deploy.md).
 !!! note "Cloning Sylvia and/or SEIF"
     While not neseary, it is recommended to run things locally to test the full pipeline and your new code works. To tests the entirerty of the pipeline, it is recommended to clone Sylvia and/or SEIF to run these locally as well. Check out below for how to run these locally.
+
+---
 
 ## MkDocs and Contributing to Verviz Docs
 
@@ -22,7 +26,7 @@ It uses Markdown files for content and a single `mkdocs.yml` for config. Read mo
 ### Contributing to Verviz Docs
 
 1. **Fork or clone** the Veriviz documentation.
-2. `ctrl + shft + p`( `cmd + shft + p` on mac) and select `reopen in devcontainer. For more information or if not working see [using devcontainers](devcontainers.md)
+2. `ctrl + shft + p`( `cmd + shft + p` on mac) and select `reopen in devcontainer. For more information or if not working see [using devcontainers](development/devcontainers.md)
 
 Now automatically, when you commit remotely to the main branch or sucesfully pull request, the website will automatically deploy and reflect your changes. Below are some common tasks that will help you get started.
 

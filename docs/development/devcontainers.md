@@ -5,10 +5,13 @@ project. For example, you can run an Ubuntu environment with Python installed, a
 no matter which machine (Windows, macOS, or Linux) you use, you’ll have a **consistent 
 setup**.
 
-**Benefits**:
+**Benefits:**
+
 - Avoid "it works on my machine" issues.
 - Simplify collaboration.
 - Effortlessly include tools (like the **OKD CLI**) without manual installs.
+
+---
 
 ## Using DevContainers
 
@@ -28,6 +31,8 @@ As you will see in Veriviz, there is a predefined devcontainer. Running it is th
 !!! note
     Sometimes, VS Code prompts **"Reopen folder to develop in a container?"**.
     Clicking **"Reopen"** achienves the same result.
+
+---
 
 ## Creating a Devcontainer
 

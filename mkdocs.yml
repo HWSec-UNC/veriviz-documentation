@@ -38,7 +38,7 @@ nav:
   - Development:
      - Dev Containers: development/devcontainers.md
      - Running Locally: development/running_locally.md
-     - The Database: database.md
+     - The Database: development/database.md
   - Deployment:
      - All About Deployment: Deployment/deployment_intro.md
      - How to Deploy: Deployment/how_to_deploy.md
