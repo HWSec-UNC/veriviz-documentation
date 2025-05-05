@@ -1,6 +1,6 @@
 # On the Database
 
-Currently, Veriviz uses a **PostgreSQL** database hosted on a service called [Neon](https://neon.tech/). We’re on Neon’s free tier, which includes **0.5 GB** of memory and limited read/write operations. **This is a good starting point**, but a more robust solution is definitely needed if you want to contribute or improve the project.
+Currently, Veriviz uses a **PostgreSQL** database hosted on a service called [Neon](https://neon.tech/). We’re on Neon’s free tier, which includes **0.5 GB** of memory and limited read/write operations. **This is a good starting point**, but a more robust solution is definitely needed if you want to contribute or improve the project. It is recommended to start a new pod with a Postgres image downloaded on OKD so everything can be in one place.
 
 ## Database Table
 
